@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="titleText" format="string"/>
+    <attr name="titleTextSize" format="dimension"/>
+    <attr name="titleTextColor" format="color"/>
+    <attr name="image" format="reference"/>
+    <attr name="imageScaleType">
+        <enum name="fillXY" value="0"/>
+        <enum name="center" value="1"/>
+    </attr>
+
+    <declare-styleable name="CustomImageView">
+        <attr name="titleText"/>
+        <attr name="titleTextSize"/>
+        <attr name="titleTextColor"/>
+        <attr name="image"/>
+        <attr name="imageScaleType"/>
+    </declare-styleable>
+
+</resources>

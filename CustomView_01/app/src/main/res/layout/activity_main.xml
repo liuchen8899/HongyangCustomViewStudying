@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cn.edu.jlnu.customview_01.MainActivity">
+
+   <cn.edu.jlnu.customview_01.view.CustomTitleView
+       android:id="@+id/ctv"
+       android:layout_width="300dp"
+       android:layout_height="60dp"
+       app:titleText="1234"
+       app:titleTextColor="#ff0000"
+       app:titleTextSize="20sp"
+       />
+
+   <cn.edu.jlnu.customview_01.view.CustomTitleView1
+       android:id="@+id/ctv1"
+       android:layout_below="@id/ctv"
+       android:layout_marginTop="30dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:padding="10dp"
+       app:titleTextColor="#983456"
+       app:titleText="8899"
+       app:titleTextSize="40sp"
+       />
+</RelativeLayout>
